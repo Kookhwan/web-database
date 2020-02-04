@@ -1,0 +1,145 @@
+body
+{
+    font-family: cursive, sans-serif;
+    width: 700px;
+    background-color:white;
+    margin: 20px auto 0;     
+    padding: 10px;
+    border: 5px solid #6A905C;
+}
+
+fieldset{
+    margin-top: 5px;
+}
+fieldset legend{
+    color:#6A905C;
+    font-weight:bold;
+    font-size: 80%;
+    text-transform: uppercase;
+}
+
+table
+{
+	font-family: arial, sans-serif;
+	text-align: center;
+}
+
+table.division {
+	width: 665px;
+    border-collapse: separate;
+}
+
+table.division td:nth-of-type(2) {
+    width:420px;
+}
+
+table.parameter {
+	width: 700px;
+    border-collapse: separate;
+    font-size: 90%;
+}
+table.parameter td:nth-of-type(1) {
+    width:50px;
+}
+table.parameter td:nth-of-type(2) {
+    width:230px;
+}
+table.parameter td:nth-of-type(3) {
+    width:30px;
+}
+table.parameter td:nth-of-type(4) {
+    width:30px;
+}
+td, th
+{
+	border: 1px solid #DDDDDD;
+	padding: 8px;
+}
+
+td.text
+{
+	text-align: left;
+}
+td.num
+{
+	text-align: right;
+}
+tr:nth-child(even)
+{
+	background-color: #DDDDDD;
+}
+
+table.allResult
+{
+    margin: auto;
+    width: 500px;
+    color: azure;
+    font-size: 110%;
+    font-weight: bold;
+    text-align: center;
+    border-spacing: spacing;
+    border: 1px solid black;
+}
+table.allResult tr
+{
+    height: 20px;
+    padding: 5px 8px;
+    text-align: left;
+    background-color: rgba(75, 75, 75, 0.65);
+    border-spacing: spacing;
+    border: 1px solid black;
+}
+table.allResult td:nth-of-type(1) {
+    background-color: rgba(105, 105, 105, .75);
+    width:150px;
+}
+
+
+
+input[type="submit"], input[type="reset"], input[type="button"] {
+	margin: 10px 5px 5px 2px;
+	height: 30px;
+	width: 105px;
+	border-radius: 5px;
+}	
+
+input[type="submit"]:hover, input[type="reset"]:hover, input[type="button"]:hover { 
+    background-color: rgb(188, 188, 188);
+    cursor: pointer;
+	color: white;
+}
+
+select {
+	float: left;
+	padding: 3px 5px 3px 5px;
+	width: 270px;
+}
+
+input[type="text"] {
+	float: left;
+	padding: 3px 5px 3px 5px;
+}
+
+#allDv {
+	width: 650px;
+	margin: 5px auto; 
+	display: block;
+	text-align: center;
+}		
+
+.resultDiv {
+	/*height: 350px;*/
+	width: 626px;
+	border-radius: 10px;
+	padding: 20px 10px 20px 10px;
+	border: 2px solid #73AD21;
+	background-color: #ffffff;
+}
+
+.btnHomeDiv {
+	position: fixed;
+	top: 20px;
+	height: 30px;
+	width: 626px;
+	margin: 10px auto; 
+}
