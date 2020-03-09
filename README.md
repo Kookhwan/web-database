@@ -26,7 +26,3 @@ Kookhwan Im - Students of Computer Programming Analyst Student at Conestoga Coll
 
 # License
 This project is licensed under the MIT License - see the [LICENSE.md] file for details
-
-# Issues
-This application runs with MS Access, so this applciation does not work well on heroku. To solve this problem, you should run on your desktop.
-
